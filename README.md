@@ -1,13 +1,11 @@
-# <p align="center"> Hi there! I'm Shivangi Sharma </p>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=250&section=header&text=Shivangi%20Sharma&fontSize=80&animation=fadeIn&fontAlignY=35" />
+  <img src="https://capsule-render.vercel.app/render?type=cyberpunk&color=00F2FF&height=250&section=header&text=Shivangi%20Sharma&fontSize=80&animation=glitch&fontAlignY=35" />
 </div>
 
 <div align="center">
   <h1>
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F2FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+🚀;App+Development+Enthusiast;B.Tech+@+Banasthali+Vidyapith;Building+the+Future+with+AI;Pacegam+Creator+🎮" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F2FF&background=00000000&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+🚀;App+Development+Enthusiast;B.Tech+@+Banasthali+Vidyapith;Building+the+Future+with+AI;Pacegam+Creator+🎮" alt="Typing SVG" />
     </a>
   </h1>
 </div>
