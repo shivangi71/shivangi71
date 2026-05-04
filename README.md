@@ -1,6 +1,85 @@
+<!-- NATIVE CYBERPUNK CSS ANIMATION SECTION (NO EXTERNAL IMAGES) -->
+<style>
+  #tech-grid {
+    width: 100%;
+    height: 180px;
+    background: #0d1117; /* GitHub dark bg */
+    border: 2px solid #00F2FF;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00F2FF;
+    border-radius: 10px;
+  }
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/render?type=cyberpunk&color=00F2FF&height=250&section=header&text=Shivangi%20Sharma&fontSize=80&animation=glitch&fontAlignY=35" />
+  #tech-grid::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-image: 
+      linear-gradient(rgba(0, 242, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 242, 255, 0.1) 1px, transparent 1px);
+    background-size: 10px 10px; /* Small grid size */
+    z-index: 1;
+    opacity: 0.5;
+  }
+
+  /* Glitch effect on text */
+  #main-title {
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    animation: glitch 1.5s steps(2) infinite;
+  }
+
+  @keyframes glitch {
+    0% { transform: translate(1px, 1px); }
+    10% { transform: translate(-1px, -1px); }
+    20% { transform: translate(0px, 0px); text-shadow: -2px 0 red; }
+    30% { transform: translate(1px, -1px); }
+    40% { transform: translate(-1px, 1px); text-shadow: 2px 0 lime; }
+    50% { transform: translate(1px, 1px); }
+    60% { transform: translate(0px, 0px); }
+    70% { transform: translate(1px, -1px); text-shadow: -1px 0 yellow; }
+    80% { transform: translate(-1px, 1px); }
+    90% { transform: translate(1px, 1px); }
+    100% { transform: translate(0px, 0px); text-shadow: none; }
+  }
+
+  /* Matrix rain effect in background */
+  .matrix-stream {
+    position: absolute;
+    bottom: -100px;
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(180deg, transparent, #00F2FF);
+    animation: matrixStream 3s linear infinite;
+    z-index: 1;
+  }
+
+  @keyframes matrixStream {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(200%); }
+  }
+
+</style>
+
+<div id="tech-grid">
+  <!-- CSS rain streams -->
+  <div class="matrix-stream" style="left: 10%; animation-delay: 0.2s;"></div>
+  <div class="matrix-stream" style="left: 20%; animation-delay: 1s;"></div>
+  <div class="matrix-stream" style="left: 40%; animation-delay: 0.5s;"></div>
+  <div class="matrix-stream" style="left: 60%; animation-delay: 1.5s;"></div>
+  <div class="matrix-stream" style="left: 80%; animation-delay: 0.8s;"></div>
+  <div class="matrix-stream" style="left: 90%; animation-delay: 2s;"></div>
+
+  <div id="main-title">SHIVANGI<br>SHARMA</div>
 </div>
 
 <div align="center">
