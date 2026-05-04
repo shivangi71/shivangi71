@@ -92,7 +92,7 @@
 
 ---
 
-###  Featured Projects (The Hall of Fame)
+### 🔮 Featured Projects (The Hall of Fame)
 
 <div align="center">
 
@@ -103,7 +103,7 @@
 
 | 🎮 Paceman game | 🔬 Banasthali Physics Lab Portal |
 | :--- | :--- |
-| A custom-built interactive game developed from scratch. | React-based lab management system for tracking research and instrumnets. |
+| A custom-built interactive game developed from scratch. | React-based lab management system for tracking research and instruments. |
 | **Tech:** `C Programming` `Game Dev` | **Tech:** `React` `JS` `VS Code` |
 
 </div>
@@ -146,6 +146,4 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=shivangi71&color=00F2FF&style=flat-square&label=PROFILE+VIEWS" alt="views" />
-  <br/>
-  <br/>
 </div>
