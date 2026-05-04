@@ -21,11 +21,11 @@
 | 🛡️ ASHAA | 🤖 AI Merchant Growth Bot |
 | :--- | :--- |
 | AI-Powered Zero-Touch Women Safety System using Voice & Motion triggers. | AI-driven engine for sales patterns and customer behavior signals. |
-| **Tech:** `Java` `Android Studio` `AI` | **Tech:** `HTML` `JavaScript` `API` |
+| **Tech:** `Java` `Kotlin` `Android Studio` `AI` | **Tech:** `HTML` `JavaScript` `API` |
 
-| 🎮 Pacegam | 🔬 Banasthali Physics Portal |
+| 🎮 Paceman game | 🔬 Banasthali Physics Lab Portal |
 | :--- | :--- |
-| A custom-built interactive game developed from scratch. | React-based lab management system for tracking research. |
+| A custom-built interactive game developed from scratch. | React-based lab management system for tracking research and instrumnets. |
 | **Tech:** `C Programming` `Game Dev` | **Tech:** `React` `JS` `VS Code` |
 
 </div>
@@ -70,5 +70,4 @@
   <img src="https://komarev.com/ghpvc/?username=shivangi71&color=00F2FF&style=flat-square&label=PROFILE+VIEWS" alt="views" />
   <br/>
   <br/>
-  <i>"Help is no longer a click away—it is a heartbeat away."</i> ✨
 </div>
