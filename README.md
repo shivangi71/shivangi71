@@ -1,4 +1,4 @@
-# <p align="center"># Hi there! I'm Shivangi Sharma </p>
+# <p align="center"> Hi there! I'm Shivangi Sharma </p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/render?type=soft&color=auto&height=250&section=header&text=Shivangi%20Sharma&fontSize=80&animation=fadeIn&fontAlignY=35" />
